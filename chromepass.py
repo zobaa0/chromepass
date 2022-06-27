@@ -5,6 +5,7 @@ import sqlite3
 import win32crypt
 from Crypto.Cipher import AES
 import shutil
+import time
 from datetime import timezone, datetime, timedelta
 
 def main():
@@ -66,7 +67,7 @@ def main():
 	print(f"\nA total of {count} account details were retrived.", file=sourceFile)
 	print(f"\nLove from Buchii :)", file=sourceFile)
 	print("Successfully excuted!")
-	time.sleep(2)
+	time.sleep(3)
 	print("`login_data.txt` has been added to your file directory")
 
 	cursor.close()
