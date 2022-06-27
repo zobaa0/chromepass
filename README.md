@@ -69,7 +69,7 @@ Follow the installation steps to open project without error
 
 ## Usuage
 
-This script is very simple to use. After installing all the necessary requirements and running the `python chromepass.py` in your terminal. A new text file called `login data.txt` will be created in your file directory. The files contains 
+This script is very simple to use. After installing all the necessary requirements and running the `python chromepass.py` in your terminal. A new text file called `login_data.txt` will be created in your file directory. The `login_data.txt` file contains 
 * **origin_url:** The name of the website 
 * **username:** Your login username
 * **password:** Your login password 
