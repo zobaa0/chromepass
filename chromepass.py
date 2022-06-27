@@ -65,6 +65,9 @@ def main():
 	sourceFile = open("login_data.txt", 'a')
 	print(f"\nA total of {count} account details were retrived.", file=sourceFile)
 	print(f"\nLove from Buchii :)", file=sourceFile)
+	print("Successfully excuted!")
+	time.sleep(2)
+	print("`login_data.txt` has been added to your file directory")
 
 	cursor.close()
 	db.close()
