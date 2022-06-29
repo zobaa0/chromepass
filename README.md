@@ -22,7 +22,7 @@ Follow the installation steps to open project without error
 #### Installation 
 
 1. Download and extract the project
-2. Download python 3.x and install on your PC. My pc is 64bit so i installed Python3(64bit). Set environmental variable for both python and pip or else you get command not found.
+2. Download python 3.x and install on your PC. My pc is 64bit so i installed Python3(64bit). Set environmental variable for both `python` and `pip` or else you get command not found.
 3. I've used virtual environment. It's not necessary, but using virtual environment is preferable. \
    Note: You can skip the 3rd step if you don't want virtual environment \
    (i) Make sure you've set your python path in environmental variable and then install
@@ -30,7 +30,7 @@ Follow the installation steps to open project without error
    ```sh
    python -m venv venv 
    ```
-   (ii) I've already created. So now you want to activate it. I'm using windows. so I used CMD. Now open the cmd of your current project folder. My project folder is chromepass.
+   (ii) I've already created it. So now you want to activate it. I'm using windows. so I used CMD. Now open the cmd of your current project folder. My project folder is chromepass.
    ```sh
    D:\buchii\chromepass> cd /venv/Scripts/activate
 
@@ -38,12 +38,12 @@ Follow the installation steps to open project without error
 
    (venv) D:\buchii\chromepass>
    ```
-   (iii) Once you can close the project, this command is user to open the venv again and for deactivation command also given.
+   (iii) Once you close the project, this command is user to open the venv again and the deactivation command is also given.
 
     ```sh
     D:\buchii\chromepass>workon venv
 
-    If not working again activate your venv
+    If not working again, activate your venv
 
     (venv) D:\buchii\chromepass>
 
@@ -51,14 +51,14 @@ Follow the installation steps to open project without error
 
     D:\buchii\chromepass> cd /venv/Scripts/deactivate
     ```
-4. Install the following requirements by following this command command. 
+4. Install the following requirements by following this command. 
    ```sh
    D:\buchii\chromepass> pip install -r requirements.txt
    ```
 6. To run the the code, use this command
    ```sh
    D:\buchii\chromepass>python chromepass.py
-7. If you get any error, make sure you've done following things 
+7. If you get any error, make sure you've done the following things 
    ```
    1. Python version should be 3.x.
    2. Settingup Environment variables.
