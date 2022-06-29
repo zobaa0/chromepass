@@ -12,7 +12,7 @@ We live in an internet age, and with the internet comes a lot of advantages and 
 
 Take a moment and guess how many passwords you've stored in your Google Accounts. 50, 100 or even more. How many of the login details are highly sensitive (could be easily exploited by hackers). 
 
-Now, think of what hackers might be able to do ihold of such information. Every day, we hear stories of hackers performing [phising attacks](https://www.imperva.com/learn/application-security/phishing-attack-scam/), after which they used the stolen information in performing many kinds of [identity theft](https://www.investopedia.com/terms/i/identitytheft.asp) ranging from using you debit card
+Now, think of what hackers might be able to do if they get hold of such information. Every day, we hear stories of hackers performing [phising attacks](https://www.imperva.com/learn/application-security/phishing-attack-scam/), after which they used the stolen information in performing many kinds of [identity theft](https://www.investopedia.com/terms/i/identitytheft.asp) ranging from using you debit card
 to purchase things online, taking hold of your social media accounts like Facebook, Instagram, etc. 
 
 ## Getting Started
